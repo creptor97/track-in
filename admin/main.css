@@ -1,0 +1,61 @@
+body{
+    font-family: 'Exo 2', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: rgba(204, 200, 190, 0.1);
+    padding: 15px;
+}
+
+.content{
+    padding: 15px;
+    width: 850px;
+    margin: 0 auto;
+}
+
+.array{
+    width: 350px;
+    display: inline-block;
+}
+
+.underline{
+    text-decoration: underline;
+    float: none;
+    font-weight: bold;
+}
+
+.well{
+    background-color: beige;
+    padding: 15px;
+    border:1px solid black;
+    border-radius: 15px;
+}
+
+#name {
+    width: 250px;
+}
+
+.member{
+    display: block;
+    width: 350px;
+}
+.member_info, .group_info{
+    font-weight: bold;
+}
+
+.member img{
+    max-height: 150px;
+    display: block;
+}
+
+.group_logo img{
+    max-height: 200px;
+}
+

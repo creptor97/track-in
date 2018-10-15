@@ -1,0 +1,249 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    font-family: 'Podkova', serif;
+    font-size: 18px;
+    background-color: #e3e2dd;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.logo{
+    display: inline-block;
+}
+
+.logo a{
+    font-size: 40px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    margin: 25px 0 25px 22px;
+}
+
+.search{
+    display: inline-block;
+    float: right;
+    margin: 27px;
+}
+
+.search input:first-child{
+    width: 75px;
+}
+
+.search input{
+    padding: 7px;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0px 1px 15px #888888;
+}
+
+.content{
+    padding: 10px 15px;
+    min-height: 30px;
+    margin-bottom: 15px;
+}
+
+nav{
+    display: block;
+    background: #000;
+    height: 46px;
+}
+
+nav li{
+    float: left;
+    display: block;
+    padding-left: 5px;
+}
+
+nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    display: block;
+    padding: 11px 24px;
+}
+
+nav li:hover{
+    color:  #3e3e3e;
+    background: rgba(208, 208, 208, 0.77);
+}
+
+.logo_search {
+    line-height: 95px;
+}
+
+.menu-toggle {
+    display: none;
+}
+.group_list{
+    padding: 15px 0;
+}
+.group_list_item{
+    font-size: 20px;
+    color: #000;
+    display: block;
+    padding: 15px;
+    border:1px solid #000;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.members_list_item{
+    font-size: 20px;
+    color: #000;
+    display: block;
+    padding: 15px;
+    border:1px solid #000;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.group_list_item:hover {
+    color: #3e3e3e;
+    border:1px solid #656565;
+    background: rgba(101, 101, 101, 0.05);
+    box-shadow: 0px 1px 3px #888888;
+}
+
+#group_logo {
+    width: 925px;
+    display: block;
+    margin: 0 auto;
+}
+
+.group_info_item{
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.band_members, .band_name, .band_albums{
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.member_info_block{
+    margin-bottom: 25px;
+    display: table;
+}
+.member_photo{
+    max-width: 250px;
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+.member_info_item{
+    font-weight: bold;
+}
+
+.album_list_block{
+    display: inline-block;
+    margin: 0 5px;
+
+}
+
+.album_list_logo{
+    max-width: 200px;
+}
+
+.album_list_name{
+    text-align: center;
+}
+
+.album_list_name_a{
+     text-decoration: none;
+     color: black;
+ }
+
+.album_list_name_a:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+
+.member_info{
+    vertical-align: top;
+    padding-left: 7px;
+}
+
+.member_info span {
+    line-height:20px;
+}
+
+.pagination{
+    margin: 0 auto;
+    width: 150px;
+}
+
+.pagination a{
+    text-decoration: none;
+    color: black;
+    bottom: 0;
+}
+
+.photo_small{
+    display: inline-block;
+    max-height: 40px;
+    max-width: 40px;
+    margin: -8px 0px;
+}
+
+.members_list_item a{
+    color: #000;
+}
+
+.genre_list_item{
+    font-size: 20px;
+    color: #000;
+    display: block;
+    padding: 15px;
+    border:1px solid #000;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
